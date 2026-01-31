@@ -1,0 +1,39 @@
+# UI / camera
+PANEL_WIDTH = 240
+CAMERA_FOV_DEG = 60.0
+
+# Mesh display
+MESH_BASE_COLOR = [0.75, 0.75, 0.75]
+
+# Point cloud sampling / display
+PCD_NUM_POINTS = 15000
+PCD_BASE_COLOR = [0.35, 0.35, 0.35]
+
+# RANSAC
+RANSAC_ITERATIONS = 2000
+RANSAC_PLANE_DISTANCE = 0.1
+
+# Clustering (DBSCAN)
+CLUSTERING_EPS = 0.1
+CLUSTERING_MIN_SAMPLES = 10
+
+# Door detection heuristics
+MIN_DOOR_WIDTH = 0.7
+MAX_DOOR_WIDTH = 2
+MIN_DOOR_HEIGHT = 1.7
+Z_THRESHOLD = None
+DOOR_CANDIDATE_COLOR = [1, 0, 0]
+
+# Grid / obstacle expansion
+GRID_RESOLUTION = 0.01
+DEFAULT_OBJECT_RADIUS = 0.10
+EXPANSION_FLAG = False
+MAX_TEX = 2048
+
+# Path visualization / grid rendering
+PATH_POINT_SIZE = 6.0
+MARKER_SIZE = 3
+PATH_THICKNESS = 4
+PATH_COLOR = (0, 255, 0)
+START_COLOR = (0, 0, 255)
+GOAL_COLOR = (255, 0, 0)
