@@ -66,7 +66,7 @@ I. Armeni et al., "3D Semantic Parsing of Large-Scale Indoor Spaces", CVPR 2016.
 
 ## License
 
-MIT License (see `LICENSE`).
+MIT License (see [LICENSE](LICENSE)).
 
 
 
